@@ -6,17 +6,33 @@ body{
 }
 
 .about-h1{
-    font-size: 25rem;
+    font-size: 20rem;
     width: 100%;
     text-transform: uppercase;
     position: relative;
-    top: -100px;
+    top: -50px;
     margin: 0;
     border-bottom: 2px solid #000;
     display: inline-block;
     font-family: 'Barlow Condensed', sans-serif;
-    text-align: center;
+    text-align: left;
 }
+
+@media (max-width:1200px) {
+    .about-h1{
+        font-size: 10rem;
+        width: 100%;
+        text-transform: uppercase;
+        position: relative;
+        top: -20px;
+        margin: 0;
+        border-bottom: 2px solid #000;
+        display: inline-block;
+        font-family: 'Barlow Condensed', sans-serif;
+        text-align: left;
+    }
+}
+
 
 .project-h1{
     font-size: 10rem;
@@ -111,6 +127,53 @@ body{
 
 .about-content p{
     font-size: 2rem;
-    margin: 0px 50px;
+    margin: 0px 10px;
     line-height: 40px;
+}
+
+
+@media (max-width:700px){
+    .about-content p{
+        font-size: 1rem;
+        margin: 0px 10px;
+        line-height: 25px;
+    }
+    .project{
+        margin-top:50px ;
+    }
+}
+@media (max-width:600px) {
+    .about-h1{
+        font-size: 5rem;
+        width: 100%;
+        text-transform: uppercase;
+        position: relative;
+        top: -20px;
+        margin: 0;
+        border-bottom: 2px solid #000;
+        display: inline-block;
+        font-family: 'Barlow Condensed', sans-serif;
+        text-align: left;
+    }
+    .project-h1{
+        font-size: 5rem;
+    }
+    .project-heading2{
+        font-size: 2rem;
+    }
+    .project-heading{
+        font-size: 7rem;
+    }
+
+}
+
+.video-prj{
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.video-prj video{
+    height: 100%;
+    width: 100%;
 }
